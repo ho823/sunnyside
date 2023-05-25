@@ -1,0 +1,56 @@
+#header {
+  height: 100vh;
+  
+    #title-header, #arrow {
+      position: absolute;
+      z-index: 1; 
+    }
+    #title-header {
+      top: 24%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-transform: uppercase;
+  
+    }
+    #arrow {
+      top: 27%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      font-size: 4rem;
+    }
+    #img-header {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: relative;
+      object-position: 50% 16%;
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+  #header {   
+      #title-header, #arrow {
+        z-index: 1000;
+        animation: bounce .8s ease-in infinite alternate;
+    
+      }
+      @keyframes bounce {
+        0% {
+            text-shadow:
+                        0 5px 0 #ccc,
+                        0 2px 3px rgba(0, 0, 0, 1);  
+        }
+        100% {
+          transform:translateY(-20px);
+          text-shadow:  0 50px 0 #000
+          0 0px 20px rgba(0, 0, 0, .8);
+        }
+      }
+      #title-header {
+        top: 20%;
+      }
+    }
+}
+

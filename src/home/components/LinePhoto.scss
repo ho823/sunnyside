@@ -1,0 +1,24 @@
+#line-photo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  justify-content: center;
+
+  .photo {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #line-photo {
+    display: flex;
+    .photo {
+      width: 25%;
+      height: 20rem;
+    }
+  }
+  
+}
+

@@ -1,0 +1,29 @@
+ {
+  "homeContent": {
+    "titleMarketing" : "Transform your brand",
+    "textMarketing": "We are a full-service agency specializing in helping brands grow fast. Engage your clients through compelling visulas that do most of the marketing for you.",
+    "titleAudience": "Stand out to the right audience",
+    "textAudience" : "Using a collaborative formula of designers researchers, photographers, videographers, and copywriters",
+    "titleGraphic": "Graphic Design",
+    "textGraphic": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.",
+    "titlePhotography": "Photography",
+    "textPhotography": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
+  },
+  "testimony": {
+    "first" : {
+      "text": "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
+      "name": "Emily R.",
+      "work": "Marketing Director"
+    },
+    "second" : {
+      "text": "Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.",
+      "name": "Thomas S.",
+      "work": "Chief Operating Officer"
+    },
+    "third" : {
+      "text": "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
+      "name": "Jennie F.",
+      "work": "Business Owner"
+    }
+  }
+}

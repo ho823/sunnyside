@@ -1,0 +1,47 @@
+nav {
+  background-color: #fdf8c0;
+  padding: 1rem 0 1rem 0;
+  ul {
+    display: none;
+  }
+  #home-btn {
+    font-family: 'Marko One', serif;
+    font-size: 1.5rem;
+    a {
+      text-decoration: none;
+      &:visited {
+        color: inherit;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  nav {
+      padding: 5px 5px 34px 5px;
+      ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        #home {
+          font-family: 'Marko One', serif;
+          font-size: 1.5rem;
+        }
+
+        li {
+          list-style: none;
+          font-family: 'Wix Madefor Display', sans-serif;
+          a {
+            text-decoration: none;
+            &:visited {
+              color: inherit;
+            }
+          }
+        }
+      }
+      #mobile-nav {
+        display: none;
+      }
+  }
+}

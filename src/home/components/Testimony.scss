@@ -1,0 +1,18 @@
+#testimony-section {
+  margin: 3rem 0 1rem 0;
+  #title-testimonny {
+    font-family: 'Marko One', serif;
+    color: #a5a5a5;
+    letter-spacing: .2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #testimony-section {
+    margin: 7rem 0 3rem 0;
+    #all-clients {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}

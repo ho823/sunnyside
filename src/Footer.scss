@@ -1,0 +1,145 @@
+#footer-light {
+  background-color: #90d4c6;
+  color: #377e6d;
+  padding: 2rem;
+  h4 {
+    margin: auto;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+  }
+  #summary {
+    display: flex;
+    margin: auto auto 3rem auto;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 16rem;
+    font-weight: 600;
+    li {
+      list-style: none;
+      a {
+        font-size: 1rem;
+        color:#90d4c6;
+        text-decoration: none;
+        &:visited {
+          color: inherit;
+        }
+      }
+    }
+  }
+  #social-network {
+    display: flex;
+    margin: 1rem auto auto auto;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 10rem;
+    li {
+      list-style: none;
+    }
+  }
+  #btn-mode {
+    border: none;
+    background-color: deeppink;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: .5rem;
+  }
+}
+
+#footer-dark {
+  background-color:#377e6d;
+  color: #90d4c6;
+  padding: 2rem;
+  h4 {
+    margin: auto;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+  }
+  #summary {
+    display: flex;
+    margin: auto auto 3rem auto;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 16rem;
+    font-weight: 600;
+    li {
+      list-style: none;
+      a {
+        font-size: 1rem;
+        color:#377e6d;
+        text-decoration: none;
+        &:visited {
+          color: inherit;
+        }
+      }
+    }
+  }
+  #social-network {
+    display: flex;
+    margin: 1rem auto auto auto;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 10rem;
+    li {
+      list-style: none;
+    }
+  }
+  #btn-mode {
+    border: none;
+    background-color: indianred;
+    color: honeydew;    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: .5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+#footer-light {
+    padding: 3rem;
+    h4 {
+      margin-bottom: 2.5rem;
+    }
+    #summary {
+      margin: auto auto 2rem auto;
+      font-weight: 400;
+      li {
+        a {
+          font-size: 0.80rem;
+          color:#377e6d;
+        }
+      }
+    }
+    #social-network {
+      margin: 5rem auto auto auto;
+    }
+    #btn-mode {
+      border: none;
+      background-color: deeppink;
+      margin-top: 3rem;
+    }
+  }
+
+  #footer-dark {
+    padding: 3rem;
+    h4 {
+      margin-bottom: 2.5rem;
+    }
+    #summary {
+      margin: auto auto 2rem auto;
+      font-weight: 400;
+      li {
+        a {
+          font-size: 0.80rem;
+          color:#90d4c6;
+        }
+      }
+    }
+    #social-network {
+      margin: 5rem auto auto auto;
+    }
+    #btn-mode {
+      margin-top: 3rem;      
+    }
+  }
+}

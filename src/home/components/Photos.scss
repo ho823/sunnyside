@@ -1,0 +1,51 @@
+#photo-container {
+  #left-content, #right-content {
+    position: relative;
+    height: 22rem;
+    .photos {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: bottom;
+    }
+    .txt-content {
+      width: 65%;
+      position: absolute;
+      top: 14rem;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: 0 auto;
+      .photos-title {
+        font-family: 'Marko One', serif;
+        font-size: 1rem;
+      }
+      .photos-txt {
+        font-family: 'Wix Madefor Display', sans-serif;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #photo-container {
+    display: flex;
+    #left-content, #right-content {
+      width: 50%;
+      height: 24rem;
+      position: relative;
+      .photos {
+        object-position: bottom;
+      }
+      .txt-content {
+        width: 45%;
+        top: 11rem;
+        .photos-txt {
+          font-size: 0.85rem;
+        }
+      }
+    }
+  }
+}
+

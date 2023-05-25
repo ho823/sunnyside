@@ -1,0 +1,52 @@
+#client-section {
+  margin: 2rem auto auto auto;
+  width: 22rem;
+  font-family: "Wix Madefor Display", sans-serif;
+  padding: 1rem;
+  .client-img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 10rem;
+  }
+  .client-txt {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+  }
+  .client-name {
+    font-family: 'Marko One', serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+
+  }
+  .client-work {
+    color: #a5a5a5;
+    font-size: 1rem;
+    margin-top: 0;
+    font-weight: 800;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #client-section {
+    margin-top: 2rem;
+    width: 17rem;
+    padding: 2rem;
+
+    .client-txt {
+      font-size: 0.90rem;
+      margin-top: 3rem;
+  
+    }
+    .client-name {
+      margin-top: 3rem; 
+    }
+    .client-work {
+      font-size: 0.70rem;
+    }
+  }
+
+} 
